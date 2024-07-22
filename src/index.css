@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+*::selection{
+    background-color: rgb(227, 24, 227);
+    color : whitesmoke
+}
+
+body::-webkit-scrollbar{
+    display: none;
+    visibility: hidden;
+}
+
+.whyus::-webkit-scrollbar{
+    display: none;
+    visibility: hidden;
+}
+
+#CardSection::-webkit-scrollbar{
+    display: none;
+    visibility: hidden;
+}
+
+.googleform::-webkit-scrollbar{
+    display: none;
+    /* visibility: hidden; */
+}
